@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>LADVR</h1>
+    <center>
+        <div id="parrafo">
+            <p>GitHub es una plataforma en la que se pueden guardar proyectos de programación y trabajar en equipo de
+                manera
+                organizada. Funciona con Git, que es un sistema que ayuda a llevar un control de los cambios que se
+                hacen en
+                los archivos, permitiendo regresar a versiones anteriores si es necesario. Además, GitHub permite que
+                varias
+                personas trabajen en un mismo proyecto sin pisarse el trabajo de los demás, ya que cada uno puede hacer
+                modificaciones en su propia versión antes de juntarlas en la versión final.
+
+                Para usar GitHub, primero hay que configurar Git en la computadora con los comandos git config --global
+                user.name "Tu Nombre" y git config --global user.email "tuemail@example.com". Si ya hay un repositorio
+                en
+                GitHub y se quiere descargar para trabajar en él, se usa el comando git clone URL_DEL_REPOSITORIO. Si en
+                cambio se quiere empezar un nuevo proyecto, primero se entra a la carpeta del proyecto en la terminal y
+                se
+                ejecuta git init para iniciarlo, y luego git remote add origin URL_DEL_REPOSITORIO para conectarlo con
+                GitHub.
+
+                Cuando se hacen cambios en los archivos, se puede revisar qué ha cambiado con git status. Luego, los
+                archivos que se quieran guardar se agregan con git add ., y después se guardan oficialmente con git
+                commit
+                -m "Descripción del cambio". Para enviar esos cambios a GitHub, se usa git push origin main. Si es la
+                primera vez que se suben archivos, antes de ese comando se debe ejecutar git branch -M main y git push
+                -u
+                origin main. Si en algún momento se quiere actualizar la copia local con cambios hechos en GitHub, se
+                usa
+                git pull origin main.
+
+                También se pueden crear ramas, que son versiones separadas del proyecto donde se pueden probar cosas
+                nuevas
+                sin afectar el código principal. Para hacer una nueva, se usa git branch nombre_de_la_rama, y para
+                cambiar a
+                esa versión se escribe git checkout nombre_de_la_rama.
+            </p>
+        </div>
+    </center>
+</body>
+
+</html>
